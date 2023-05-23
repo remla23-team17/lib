@@ -2,10 +2,12 @@ from setuptools import setup, find_packages
 
 setup(
     name='remla23-team17-lib',
-    version='1.0.0',
+    version='{{VERSION}}',
     author='remla23-team17',
     author_email='remyduijsens@gmail.com',
-    description='A Python library for retrieving the version of a GitHub repository',
+    description='Library for retrieving repo versions',
+    long_description_content_type="text/markdown",
+    long_description='Library for retrieving repo versions',
     url='https://github.com/remla23-team17/lib',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
