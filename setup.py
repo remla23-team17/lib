@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='remla23-team17-lib',
+    name='remla23_team17_lib',
     version='{{VERSION}}',
     author='remla23-team17',
     author_email='remyduijsens@gmail.com',
